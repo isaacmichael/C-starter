@@ -6,6 +6,18 @@ using namespace std;
 
 int main()
 {
+
+	
+
+}
+
+
+//functions below to remind me how lower level designs work within C++
+
+
+
+//Pointers! =>
+void pointers() {
 	int age{ 50 };
 
 	cout << "Size of age is " << sizeof(age) << endl;
@@ -13,9 +25,31 @@ int main()
 	cout << "Value of age is " << age << endl;
 
 	cout << "address of age is " << &age << endl;
-	
+}
+
+
+//function overloading
+void overloading() {
 
 }
+
+void print(int, int) {
+
+}
+void print(char, char) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
